@@ -33,8 +33,8 @@ def download_comments(start, end):
         current = last_comment['created_utc']
 
 def main(interval_num):
-    # initial_time = get_epoch(2, 1, 2012)
-    initial_time = get_epoch(8, 3, 2020)
+    initial_time = get_epoch(2, 1, 2012)
+    # initial_time = get_epoch(8, 3, 2020)
     final_time = get_epoch(8, 6, 2020)
     difference = final_time - initial_time
     interval = difference // 4

@@ -1,0 +1,3 @@
+#!/bin/bash
+#SBATCH --partition=gpux1
+python3 data_scraper.py 0
